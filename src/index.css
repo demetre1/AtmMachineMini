@@ -11,3 +11,261 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.body{
+  margin:0;
+  
+}
+.nav{
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  
+}
+.nav ul{
+  padding: 0;
+  
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+
+
+}
+.nav a{
+  color:inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+.nav li:hover{
+  background-color: #777;
+}
+.nav li.active{
+  background-color: #555;
+}
+.nav li{
+  padding: 0 25px ;
+  box-shadow: none;
+}
+
+#header{
+
+ font-size: 2rem;
+}
+
+.container{
+  max-width: 100%;
+  margin:0 auto;
+  padding: 0 15px;
+  min-height: 100vh;
+  border: 1px solid #171010 ;
+  background-color: #2C3333;
+ 
+ 
+}
+.counter{
+
+ max-width: 100%;
+ display: flex;
+ justify-content: center;
+ padding: 150px;
+ font-family:'Montserrat', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
+}
+
+.Display {
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+  
+}
+.Display ul{
+  display: flex;
+  justify-content:center;
+  list-style-type:none;
+}
+
+
+.Methods{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto 0;
+ 
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.Methods #AddBtn,#drawBtn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #497174;
+padding: 9px 8px;
+border: 2px solid #EFF5F5;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+border-radius: 24px;
+transition : 777ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.Methods #AddBtn:hover,#drawBtn:hover{
+
+transition : 777ms;
+transform : translateY(-0px);
+background-color: #fff;
+color: #EB6440;
+border: solid 2px #EFF5F5;
+
+}
+
+
+.OnMoneyAdd{
+  display: flex;
+  min-height: 100px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.onWithdraw{
+
+  min-height: 100px;
+  align-self: center;
+
+
+}
+.onWithdraw #drawBtn{
+  margin-left: 45px;
+  margin-top: 55px;
+  padding: 10px;
+}
+
+
+#AddBtn{
+ margin:20px 0 0 190px ;
+}
+
+
+ul{
+  list-style: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #171010;
+  font-weight: 700;
+}
+
+.select-selected {
+  background-color: #D6E4E5;
+  margin-right: 20px;
+  padding: 5px;
+
+}
+
+.select-selected:after{
+  position: absolute;
+  top:14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.toCurrecy select{
+  margin-left:20px;
+  margin-bottom: 20px;
+  font-family: sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+ 
+.fromCurrecy select{
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+input::placeholder{
+  font-family: 'Balsamiq Sans', cursive;
+  color: #497174;
+}
+
+.Logs {
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(0.2fr, 1fr)) ;
+  grid-template-rows: 1fr;
+}
+ul {
+  display: flex;
+  list-style-position:inside;
+  margin:0;
+  padding:5px;
+  justify-content: center;
+}
+
+.Logs  li:first-child {
+  color: white;
+  padding:1px 220px;
+
+  font-weight: 600;
+  font-size: large;
+  margin: 5px;
+  
+}
+
+i{
+  padding-right: 15px;
+  color:#000000
+
+}
+.liList{
+  border: 1px solid #362222;
+  
+}
+hr{
+  width: 100%;
+  margin: 0 auto;
+  
+}
+span{
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.bottomRow {
+  margin:0;
+  display: flex;
+  align-items: flex-end;
+ 
+}
+.bottomRow  button{
+  cursor: pointer;
+  background-color: #151515;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 1rem;
+  color:whitesmoke;
+  border: none;
+  
+}
+.bottomRow i{
+  margin: 0;
+  padding: 5px;
+  color:#346751
+}
